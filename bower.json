@@ -1,39 +1,37 @@
 {
-  "name": "angular-ui-router-hooks-before-state",
-  "version": "0.0.1",
-  "main": "./release/angular-ui-router-hooks-before-state.js",
+  "authors": ["dev@intervalbraining.com"],
   "dependencies": {
     "angular": ">= 1.0.8",
-    "angular-ui-router": "master"
+    "angular-ui-router": "0.2.10"
   },
+  "description": "angular-ui-router hook to execute logic before loading a state, possibly changing destination state",
   "devDependencies": {
     "angular-mocks": ">=1.0.8"
   },
+  "homepage": "https://github.com/interval-braining/angular-ui-router-hooks-before-state",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "component.json",
     "package.json",
-    "lib",
     "config",
-    "test",
-    "ngdoc_assets"
+    "test"
   ],
-  "authors": [
-    "dev@intervalbraining.com"
-  ],
-  "description": "angular-ui-router hook to execute logic before loading a state, possibly changing destination state",
   "keywords": [
-    "ui-router",
     "angular",
     "angular-ui-router",
-    "navigation",
+    "before-state",
+    "beforeState",
     "hook",
     "hooks",
-    "beforeState",
-    "before-state"
+    "navigation",
+    "ui-router"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/interval-braining/angular-ui-router-hooks-before-state"
+  "main": [
+    "dist/angular-ui-router-hooks-before-state.js",
+    "dist/angular-ui-router-hooks-before-state.min.js"
+  ],
+  "name": "angular-ui-router-hooks-before-state",
+  "version": "0.0.1"
 }
