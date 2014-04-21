@@ -2,7 +2,7 @@
   "authors": ["dev@intervalbraining.com"],
   "dependencies": {
     "angular": ">= 1.0.8",
-    "angular-ui-router": "0.2.10"
+    "angular-ui-router": "~0.2.10"
   },
   "description": "angular-ui-router hook to execute logic before loading a state, possibly changing destination state",
   "devDependencies": {
@@ -11,10 +11,13 @@
   "homepage": "https://github.com/interval-braining/angular-ui-router-hooks-before-state",
   "ignore": [
     "**/.*",
-    "node_modules",
     "bower_components",
-    "package.json",
     "config",
+    "files.js",
+    "Gruntfile.js",
+    "node_modules",
+    "package.json",
+    "src",
     "test"
   ],
   "keywords": [
@@ -29,9 +32,8 @@
   ],
   "license": "MIT",
   "main": [
-    "dist/angular-ui-router-hooks-before-state.js",
-    "dist/angular-ui-router-hooks-before-state.min.js"
+    "dist/angular-ui-router-hooks-before-state.js"
   ],
   "name": "angular-ui-router-hooks-before-state",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
