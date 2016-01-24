@@ -1,6 +1,6 @@
 # UI-Router-Hooks-Before-State
-[![Build Status](https://travis-ci.org/interval-braining/angular-ui-router-hooks-before-state.png?branch=master)](https://travis-ci.org/interval-braining/angular-ui-router-hooks-before-state)
-[![Code Climate](https://codeclimate.com/github/interval-braining/angular-ui-router-hooks-before-state.png)](https://codeclimate.com/github/interval-braining/angular-ui-router-hooks-before-state)
+[![Build Status](https://travis-ci.org/tdg5/angular-ui-router-hooks-before-state.png?branch=master)](https://travis-ci.org/tdg5/angular-ui-router-hooks-before-state)
+[![Code Climate](https://codeclimate.com/github/tdg5/angular-ui-router-hooks-before-state.png)](https://codeclimate.com/github/tdg5/angular-ui-router-hooks-before-state)
 
 UI-Router-Before-State-Filter provides a convenient method of registering
 filter logic for execution before a state is loaded. These filters can be
@@ -13,7 +13,7 @@ subject to change.*
 
 **(1)** Get UI-Router-Before-State-Filter by cloning and building this repository:
 ```bash
-git clone git@github.com:interval-braining/angular-ui-router-hooks-before-state.git
+git clone git@github.com:tdg5/angular-ui-router-hooks-before-state.git
 cd angular-ui-router-hooks-before-state
 npm install
 bower install

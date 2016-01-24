@@ -1,7 +1,7 @@
 /**
  * angular-ui-router hook to execute logic before loading a state, possibly changing destination state
  * @version v0.0.1-dev-2014-04-20
- * @link https://github.com/interval-braining/angular-ui-router-hooks-before-state
+ * @link https://github.com/tdg5/angular-ui-router-hooks-before-state
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 
